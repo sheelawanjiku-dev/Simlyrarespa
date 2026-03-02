@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply Rare | Mobile Beauty & Spa Mariakani</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root { --gold: #c5a059; --cream: #faf9f6; --charcoal: #2d2d2d; --white: #ffffff; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Lato', sans-serif; background-color: var(--cream); color: var(--charcoal); line-height: 1.6; }
+        h1, h2, h3, h4 { font-family: 'Playfair Display', serif; }
+        nav { background: var(--white); padding: 1.5rem 5%; text-align: center; border-bottom: 1px solid rgba(0,0,0,0.05); position: sticky; top: 0; z-index: 1000; }
+        nav h1 { font-size: 1.8rem; text-transform: uppercase; letter-spacing: 5px; color: var(--gold); }
+        header { height: 40vh; display: flex; align-items: center; justify-content: center; text-align: center; background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1560750588-73207b1ef5b8?auto=format&fit=crop&w=1500&q=80'); background-size: cover; background-position: center; color: var(--white); padding: 0 10%; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 3rem 5%; }
+        .section-title { text-align: center; margin-bottom: 2rem; color: var(--gold); }
+        .menu-category { margin-bottom: 3rem; }
+        .menu-category h3 { color: var(--gold); border-bottom: 1px solid #ddd; padding-bottom: 5px; margin-bottom: 15px; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 2px; }
+        .menu-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 10px; }
+        .menu-item { background: #fff; padding: 15px; border: 1px solid #eee; display: flex; justify-content: space-between; align-items: center; border-radius: 4px; }
+        .menu-item h4 { font-size: 1rem; color: var(--charcoal); }
+        .menu-item .price { color: var(--gold); font-weight: bold; font-size: 0.9rem; white-space: nowrap; margin-left: 10px; }
+        .prep-guide { background: var(--charcoal); color: #fff; padding: 2rem; border-radius: 4px; margin: 2rem 0; text-align: center; }
+        .prep-guide h3 { color: var(--gold); margin-bottom: 10px; }
+        .whatsapp-float { position: fixed; bottom: 30px; right: 30px; background-color: #25d366; color: #FFF; border-radius: 50px; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 30px; z-index: 1000; text-decoration: none; box-shadow: 0 4px 10px rgba(0,0,0,0.3); }
+        .btn-main { display: inline-block; padding: 1rem 2rem; background: var(--gold); color: white; text-decoration: none; margin-top: 1rem; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 1px; border-radius: 2px; }
+        footer { background: #1a1a1a; color: #fff; padding: 3rem 5%; text-align: center; font-size: 0.8rem; }
+        .text-center { text-align: center; }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <h1>Simply Rare</h1>
+        <p>MOBILE BEAUTY & SPA • MARIAKANI</p>
+    </nav>
+
+    <header>
+        <div>
+            <h2>Your Rare Glow, Delivered.</h2>
+            <p>Professional beauty services in the comfort of your home.</p>
+            <a href="#booking" class="btn-main">Book Appointment</a>
+        </div>
+    </header>
+
+    <section class="container">
+        
+        <div class="menu-category">
+            <h3>Nails & Art (3D Art Included!)</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div><h4>Acrylics</h4></div><span class="price">KSh 3,500</span></div>
+                <div class="menu-item"><div><h4>Gum Gel</h4></div><span class="price">KSh 2,000</span></div>
+                <div class="menu-item"><div><h4>Overlays</h4></div><span class="price">KSh 1,500</span></div>
+                <div class="menu-item"><div><h4>Stick-ons + Gel</h4></div><span class="price">KSh 1,000</span></div>
+                <div class="menu-item"><div><h4>Builder + Gel Polish</h4></div><span class="price">KSh 800</span></div>
+                <div class="menu-item"><div><h4>Gel Polish Only</h4></div><span class="price">KSh 500</span></div>
+                <div class="menu-item"><div><h4>Pedicure</h4></div><span class="price">KSh 1,000</span></div>
+                <div class="menu-item"><div><h4>Manicure</h4></div><span class="price">KSh 500</span></div>
+                <div class="menu-item"><div><h4>Cutex</h4></div><span class="price">KSh 200</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Facial Treatments</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div><h4>Hydrafacial (Deep Clean)</h4></div><span class="price">KSh 3,000</span></div>
+                <div class="menu-item"><div><h4>Chemical Peel</h4></div><span class="price">KSh 2,500</span></div>
+                <div class="menu-item"><div><h4>Acne-Focused Treatment</h4></div><span class="price">KSh 2,000</span></div>
+                <div class="menu-item"><div><h4>Microdermabrasion</h4></div><span class="price">KSh 2,500</span></div>
+                <div class="menu-item"><div><h4>Dermaplaning</h4></div><span class="price">KSh 1,500</span></div>
+                <div class="menu-item"><div><h4>Steam & Extraction (Basic)</h4></div><span class="price">KSh 1,200</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Hair Artistry</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div><h4>Knotless Braids</h4></div><span class="price">From KSh 1,500</span></div>
+                <div class="menu-item"><div><h4>Box Braids</h4></div><span class="price">From KSh 1,200</span></div>
+                <div class="menu-item"><div><h4>Mini Twists / Two Strands</h4></div><span class="price">KSh 800</span></div>
+                <div class="menu-item"><div><h4>Weaving (Installation)</h4></div><span class="price">KSh 1,000</span></div>
+                <div class="menu-item"><div><h4>Locs Retouch & Fixing</h4></div><span class="price">KSh 1,500</span></div>
+                <div class="menu-item"><div><h4>Hair Setting</h4></div><span class="price">KSh 500</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Lashes & Brows</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div><h4>Volume/Wispy Lashes</h4></div><span class="price">KSh 2,000</span></div>
+                <div class="menu-item"><div><h4>Individual Lashes</h4></div><span class="price">KSh 1,500</span></div>
+                <div class="menu-item"><div><h4>Strip Lashes</h4></div><span class="price">KSh 500</span></div>
+                <div class="menu-item"><div><h4>Brow Henna + Shaping</h4></div><span class="price">KSh 800</span></div>
+                <div class="menu-item"><div><h4>Brow Tweezing/Razor</h4></div><span class="price">KSh 200</span></div>
+            </div>
+        </div>
+
+        <div class="menu-category">
+            <h3>Body Wellness</h3>
+            <div class="menu-grid">
+                <div class="menu-item"><div><h4>Swedish Massage (1hr)</h4></div><span class="price">KSh 3,000</span></div>
+                <div class="menu-item"><div><h4>Full Body Scrub</h4></div><span class="price">KSh 2,500</span></div>
+                <div class="menu-item"><div><h4>Deep Tissue Massage</h4></div><span class="price">KSh 3,500</span></div>
+                <div class="menu-item"><div><h4>Back & Shoulder Massage</h4></div><span class="price">KSh 1,500</span></div>
+            </div>
+        </div>
+
+        <div class="prep-guide">
+            <h3>Professional Standards</h3>
+            <p>Mobile services within Mariakani town are inclusive of transport. For further locations, a small convenience fee may apply. Please ensure a quiet space with chair access for your service.</p>
+        </div>
+
+        <div id="booking" class="text-center">
+            <h2 class="section-title">Secure Your Time</h2>
+            <div class="calendly-inline-widget" data-url="https://calendly.com/simplyrare-beautyspa/simply-rare-full-service-1" style="min-width:320px;height:700px;"></div>
+            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        </div>
+    </section>
+
+    <a href="https://api.whatsapp.com/send?phone=254700051710" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <footer>
+        <p><strong>SIMPLY RARE MARIAKANI</strong></p>
+        <p>Quality Mobile Spa & Beauty Services</p>
+        <p>&copy; 2026 Simply Rare Spa</p>
+    </footer>
+
+</body>
+                  </html>
+                  
